@@ -28,3 +28,27 @@ button {
     margin-top: 2px;
     cursor: pointer; /* Corrected here */
 }
+input[type="number"] {
+    width: 100px; /* Adjust the width as per your preference */
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    background-color: #1a1a1a; /* Dark background to match your theme */
+    color: white; /* White text for contrast */
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center; /* Center the input text */
+    margin-top: 10px; /* Adds space between other elements */
+    outline: none; /* Removes the default outline */
+}
+
+input[type="number"]::placeholder {
+    color: #f5d742; /* Golden placeholder text to match your theme */
+    opacity: 0.7; /* Slightly transparent for a sleek look */
+}
+
+input[type="number"]:focus {
+    border-color: #f5d742; /* Highlight border when focused */
+    background-color: #333333; /* Slight change in background on focus */
+    color: white;
+}
